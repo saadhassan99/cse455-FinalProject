@@ -8,6 +8,8 @@ Source code is in this [jupyter notebook](https://colab.research.google.com/driv
 
 ## Abstract
 
+For this project, I explored a few pretrained segmentation models to judge their performed on a challenging dataset of identifying whale flukes. The purpose of the project was to help with convervation efforts of known whales as well as identify new whale species. The training involved using state of the art models combined with linear classifiers of our own and compare the results of the models qualitavelivey. At the end, i discussed, a few challenges and roadmap for future work.  
+
 ## Problem and Motivation
 The main goal was to identify whether the given photo of the whale fluke belongs to one of the 5004 known individual of
 whales or, it is a `new_whale` never been seen before.
