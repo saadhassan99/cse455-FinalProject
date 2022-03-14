@@ -1,5 +1,11 @@
 Source code is in this [jupyter notebook](https://colab.research.google.com/drive/1gLUj6_ho7ZafWqwCv2hYjHO5JGHJwfD2#scrollTo=uBEH1kB0r2np) as well as on [Github](https://github.com/saadhassan99/cse455-FinalProject/blob/main/CSE455_Final_Project.ipynb)
 
+## Project Video
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EDeUqlfrY30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 ## Abstract
 
 ## Problem and Motivation
