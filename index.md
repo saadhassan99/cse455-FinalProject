@@ -54,40 +54,10 @@ I trained DenseNet121 with varying hyperparameters and fine tuning to prevent ov
 
 In this project, I gained a good understand of different CV models, what works, what doesnt work, choosing hyperparameters, etc. Although densenet performed better than Resnet, the resulted model is still not good enough to be used commercially. Future work will be to continue addressing the overfitting problem as well as discovering and understanding ways to work with data with huge imbalances. Overall, this project to me was a huge learning experience, and i will continue on this path even after this class.
 
+## Discussion:
 
+These CNN models take hours to train, and consumes a huge amount of computation resources and time. Therefore, finding the right set of hyperparamaters was a challenge. I relied on the knowledge and experiences from the class when we were building our CV library and chose learning rates and decay accordingly.
 
-You can use the [editor on GitHub](https://github.com/saadhassan99/cse455-FinalProject/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+GPU capacity was also challenge, I ran out of Google colabs 12 hour time limit. so i had to migrate my code over to kaggle to use their gpus.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/saadhassan99/cse455-FinalProject/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Future work will include researching how we can cut down computation time and speed up training. So we quickly experiment with different settings.
